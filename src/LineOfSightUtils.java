@@ -35,7 +35,7 @@ public class LineOfSightUtils {
     
     /*
      * Returns the maximum straight line distance apart two objects of specified 
-     * altitude can be to maintain a line of sight
+     * altituude can be to maintain a line of sight
      */
     public static double getMaxStraightLineLosDistance(double height1, double height2){
         return Math.sqrt(Math.pow(height1,2) + 2*height1*R) + Math.sqrt(Math.pow(height2,2) + 2*height2*R);
